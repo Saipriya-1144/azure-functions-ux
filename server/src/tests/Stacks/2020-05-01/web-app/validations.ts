@@ -10,6 +10,7 @@ import { java11CreateStack } from './../../../../stacks/2020-05-01/stacks/web-ap
 
 const expect = chai.expect;
 
+
 export function validateCreateStackLength(stacks) {
   expect(stacks).to.be.an('array');
   expect(stacks.length).to.equal(8);
